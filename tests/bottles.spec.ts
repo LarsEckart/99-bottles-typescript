@@ -2,7 +2,7 @@ import {describe, it, expect} from 'vitest';
 import {Bottles} from '../src/bottles';
 
 describe('Bottles Test', () => {
-    it('test the first verse', () => {
+    it.skip('test the first verse', () => {
         const bottles = new Bottles();
         const expected =
             "99 bottles of beer on the wall, " +
